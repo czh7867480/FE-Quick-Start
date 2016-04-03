@@ -1,0 +1,27 @@
+/*VENDORS*/
+@import '_vendors/_bootstrap.scss';
+
+/*COMMON*/
+	@import '_common/_base.scss';
+	/*包含normalize.css,设置基本样式 html, body, a, ul, li, etc.*/
+
+	@import '_common/_layout.scss';
+	/*根据网站的复杂性，我们将一个专门的布局文件。网格，响应框架，包装等方面都住在这里。*/	
+
+	@import '_common/_other.scss';
+	/*不适合出现在_base，_layout中的代码*/
+
+	@import '_components/_helpers.scss';
+	/*常用样式简写类*/
+
+	@import '_common/_shame.scss';
+	/*所有你感到不自豪的代码，各种hack*/
+		
+/*COMPONENTS*/
+
+@import '_components/_function.scss';
+@import '_components/_mixins.scss';
+@import '_components/_variables.scss';
+
+/*PAGES*/
+/*@import '';*/
